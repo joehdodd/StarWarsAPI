@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/joedodd/.nvm/versions/node/v10.15.1/bin/node /usr/local/Cellar/yarn/1.10.1/libexec/bin/yarn.js add node-fetch
+
+PATH: 
+  /Users/joedodd/.nvm/versions/node/v10.15.1/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  10.15.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/joedodd/Documents/StarWarsAPI/package.json: Unexpected token } in JSON at position 242
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:1136:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:109:13
+
+npm manifest: 
+  {
+    "author": "Joe Dodd",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+      "start": "nodemon lib/index.js --exec babel-node"
+    },
+    "dependencies": {
+      "body-parser": "^1.18.3",
+      "dotenv": "^6.2.0",
+      "express": "^4.16.4",
+    },
+    "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-core": "^6.26.3",
+      "babel-preset-env": "^1.7.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,19 @@
+{
+  "author": "Joe Dodd",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon lib/app.js --exec babel-node"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
